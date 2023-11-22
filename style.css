@@ -1,0 +1,36 @@
+body {
+    height: 100vh;
+    margin: 0px;
+    background-image: url("images/bluestars.gif");
+    background-size: 200px;
+    color: white;
+    overflow: hidden;
+    animation: cursor 4000ms infinite;
+}
+
+html {
+    margin: 0px;
+}
+
+#welcome {
+    font-family: monospace;
+    font-size: 72px;
+    text-align: center;
+    border-style: double;
+    background-color: #000033;
+}
+
+@keyframes cursor {
+    0% {cursor: url("/images/cursor/caticon1.png"), auto;}
+    45% {cursor: url("/images/cursor/caticon1.png"), auto;}
+    48% {cursor: url("images/cursor/caticon2.png"), auto;}
+    51% {cursor: url("images/cursor/caticon3.png"), auto;}
+    54% {cursor: url("images/cursor/caticon4.png"), auto;}
+    57% {cursor: url("images/cursor/caticon5.png"), auto;}
+    60% {cursor: url("images/cursor/caticon6.png"), auto;}
+    63% {cursor: url("images/cursor/caticon7.png"), auto;}
+    80% {cursor: url("images/cursor/caticon8.png"), auto;}
+    85% {cursor: url("images/cursor/caticon9.png"), auto;}
+    90% {cursor: url("images/cursor/caticon10.png"), auto;}
+    100% {cursor: url("images/cursor/caticon11.png"), auto;}
+}
